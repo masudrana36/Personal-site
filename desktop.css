@@ -1,0 +1,157 @@
+/* --------------------divce------------------------- */
+/* for desktop */
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+/* ------------------navber--------------------------- */
+/* navber start */
+.navber-logo{
+ text-align: left;
+ padding-top: 0;
+ 
+}
+
+.navber-heading h1{
+    text-align: right;
+    padding-top: 5px;
+}
+
+.navber-manu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navber-manu a{
+background-color: transparent;
+padding-top: 10px;
+}
+/* navber end */
+/* ---------------------profile------------------------ */
+/* profile start */
+
+.top-profile-image{
+    position: absolute;
+    right: 200px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+
+.top-profile-image:hover{
+    width: 140px;
+}
+
+
+.profile-desc h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+.bottom-profile-image{
+    position: absolute;
+    left: 200px;
+    width: 120px;
+    top: 410px;
+    left: 160px;
+    transition: width 2s,transform 2s;
+}
+
+.bottom-profile-image:hover{
+    width: 140px;
+}
+
+/* profile end */
+/* ------------------------about me--------------------------- */
+/* about me start */
+
+.about-me{
+text-align: center;
+}
+
+.aboutme-image img{
+    width: 250px;
+    height: 250px;
+   margin-top: 100px;
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+
+
+
+
+
+/* about me end */
+/* ---------------------------achivement---------------------------------- */
+
+/* achivement start */
+
+.contact{
+    padding-left: 70px;
+}
+
+.contact-link{
+  padding-right: 30px;
+}
+.media-button img{
+    width: 40px;
+   
+   
+}
+
+.media-button .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 5px;
+    margin: 10px;
+    width: 80px;
+  }
+
+
+.achivement-contact::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* achivement ends */
+
+/* ----------------footer--------------------- */
+
+/* footer start here */
+
+.footer-manu {
+    margin-top: 12px;
+}
+.footer-manu a{
+    display: inline;
+    margin: 10px;
+}
+.footer-desc{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* footer ends here */
